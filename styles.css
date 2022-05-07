@@ -6,6 +6,8 @@
 
 body{
     background-color: #9DA6B8;
+    font-family: 'Montagu Slab';
+    font-weight: 400;
 }
 
 .site{
@@ -35,4 +37,31 @@ body{
     justify-content: space-between;
 }
 
+.details{
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1015px;
+    height: 100px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
 
+.details_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details_block_round{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EDC19D;
+}
