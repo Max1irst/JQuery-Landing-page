@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9DA6B8;
+}
+
+.site{
+    margin: auto;
+    width: 1400px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    background-color: #EDC19D;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.navbar_links, .logo, .info {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
