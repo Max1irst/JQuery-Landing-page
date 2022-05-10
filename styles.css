@@ -66,7 +66,7 @@ body{
     background-color: #EDC19D;
 }
 
-.pies{
+.products{
     position: relative;
     width: 1200px;
     height: 800px;
@@ -79,10 +79,10 @@ body{
     align-items: center;
     justify-content: space-between;
     text-align: left;
-    color: #000000;
+    color: #3a3636;
 }
 
-.pies_block-1{
+.products_block-lg{
     padding: 20px 0 0 20px;
     font-size: 30px;
     line-height: 46px;
@@ -91,16 +91,7 @@ body{
     background: #F79582;
 }
 
-.pies_block-2{
-    padding: 20px 0 0 20px;
-    font-size: 30px;
-    line-height: 46px;
-    width: 592px;
-    height: 356px;
-    background: #F79582;
-}
-
-.pies_block-3{
+.products_block-sm{
     padding: 20px 0 0 20px;
     font-size: 22px;
     line-height: 31px;
@@ -109,30 +100,65 @@ body{
     background: #8D735E;
 }
 
-.pies_block-4{
-    padding: 20px 0 0 20px;
-    font-size: 22px;
-    line-height: 31px;
-    width: 371px;
-    height: 299px;
-    background: #8D735E;
-}
-
-.pies_block-5{
-    padding: 20px 0 0 20px;
-    font-size: 22px;
-    line-height: 31px;
-    width: 371px;
-    height: 299px;
-    background: #8D735E;
-}
-
-#pieOrder{
-    text-align: center;
+.pieOrder{
+    display: block;
+    margin: auto;
     cursor: pointer;
-    width: 350px;
-    height: 80px;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 450px;
+    height: 100px;
     background: #CE644F;
-    background-blend-mode: overlay;
     border: 1px solid #c2877b;
+    border-radius: 5%;
 }
+
+h1{
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.stuffings{
+    position: relative;
+    width: 1150px;
+    height: auto;
+    margin: 30px auto;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: #3a3636;
+}
+
+.staffings_block{
+    margin-top: 20px;
+    background: #9DA6B8;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+
+.staffings_block p{
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(56, 95, 95);
+}
+
+.staffings_img{
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+}
+
