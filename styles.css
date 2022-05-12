@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 body{
     background-color: #9DA6B8;
     font-family: 'Montagu Slab';
@@ -34,7 +39,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .logo img{
@@ -180,3 +185,7 @@ h1{
     text-transform: uppercase;
 }
 
+.icon{
+    width: 120px;
+    height: auto;
+}
