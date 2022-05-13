@@ -100,7 +100,9 @@ body{
     width: 592px;
     height: 356px;
     background: #F79582;
+    overflow: scroll;
 }
+
 
 .products_block-sm{
     padding: 20px 0 0 20px;
@@ -109,6 +111,7 @@ body{
     width: 371px;
     height: 299px;
     background: #8D735E;
+    overflow: scroll;
 }
 
 .pieOrder{
@@ -187,5 +190,23 @@ h1{
 
 .icon{
     width: 120px;
+    height: auto;
+}
+
+.products_block_images{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.products_block_images img{
+    border-radius: 2%;
+    margin: 2px;
+    width: 220px;
     height: auto;
 }
