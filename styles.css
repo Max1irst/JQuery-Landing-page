@@ -14,15 +14,17 @@ body{
     background-color: #9DA6B8;
     font-family: 'Truculenta', sans-serif;
     font-weight: 400;
+    color: #605461;
 }
 
 .site{
     margin: auto;
-    width: 1400px;
+    width: 100%;
     height: auto;
     position: relative;
     align-items: center;
-    background-color: #EDC19D;
+    background-image: url(images/backgrounds/8.jpg);
+    background-size: contain;
 }
 
 .navbar{
@@ -31,7 +33,8 @@ body{
     align-items: center;
     justify-content: space-evenly;
     height: 120px;
-    background: #FFFFFF;
+    background: #f8f0f0;
+    border-radius: 1%;
 }
 
 .navbar a:hover{
@@ -59,13 +62,14 @@ body{
     margin: 20px auto;
     margin-top: 30px;
     padding: 0 20px;
+    border-radius: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 1015px;
     height: 100px;
-    background: #FFFFFF;
+    background: #f8f0f0;
 }
 
 .details_block{
@@ -153,7 +157,8 @@ h1{
     font-weight: 500;
     font-size: 40px;
     text-align: center;
-
+    background-color: #f8f0f0;
+    opacity: 0.9;
 }
 
 .stuffings{
@@ -261,4 +266,8 @@ h1{
 .blockHover{
     transition: 0.3s;
     transform: scale(1.1);
+}
+footer{
+    background-color: #f8f0f0;
+    opacity: 0.9;
 }
