@@ -23,4 +23,19 @@ $(document).ready(function () {
         }, 1000, 'linear');
         return false;
     });
+
+    $('.products_block-lg').hover(function () {
+            $(this).addClass('blockHover')
+        }, function () {
+            $(this).removeClass('blockHover')
+        }
+    );
+
+    $('.products_block-sm').hover(function () {
+        $(this).addClass('blockHover')
+    }, function () {
+        $(this).removeClass('blockHover')
+    }
+);
+
 });

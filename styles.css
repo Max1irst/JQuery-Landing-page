@@ -12,7 +12,7 @@ a{
 
 body{
     background-color: #9DA6B8;
-    font-family: 'Montagu Slab';
+    font-family: 'Truculenta', sans-serif;
     font-weight: 400;
 }
 
@@ -109,6 +109,7 @@ body{
     background: #F79582;
     overflow: scroll;
     border-radius: 1%;
+    transition: 0.3s;
 }
 
 
@@ -122,6 +123,7 @@ body{
     background: #8D735E;
     overflow: scroll;
     border-radius: 1%;
+    transition: 0.3s;
 }
 
 .pieOrder{
@@ -254,4 +256,9 @@ h1{
     opacity: 1;
     transition: .3s;
     border-color: #f2cac2;
+}
+
+.blockHover{
+    transition: 0.3s;
+    transform: scale(1.1);
 }
