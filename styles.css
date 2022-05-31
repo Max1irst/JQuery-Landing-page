@@ -276,8 +276,8 @@ footer{
 }
 
 .modalForm{
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     background-color: #9DA6B8;
     color: #e287ec;
     display: flex;
@@ -289,16 +289,17 @@ footer{
 .form{
 display: none;
 position: fixed;
-top: 0;
-left: 0;
-z-index: 99;
-
+align-items: center;
+top: 50%;
+left: 50%;
+margin-left: -175px;
+margin-top: -250px;
 }
 
 .closeModal img{
     position: absolute;
     right: 0;
-    top: 0%;
+    top: 0;
     width: 20px;
     height: 20px;
 }
