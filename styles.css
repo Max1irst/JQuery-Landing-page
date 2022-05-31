@@ -278,12 +278,13 @@ footer{
 .modalForm{
     width: 350px;
     height: 500px;
-    background-color: #9DA6B8;
+    background-color: #86a9ed;
     color: #e287ec;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 2%;
 }
 
 .form{
@@ -298,11 +299,17 @@ margin-top: -250px;
 
 .closeModal img{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 1%;
+    top: 1%;
     width: 20px;
     height: 20px;
+    border-radius: 2%;
 }
 .closeModal img:hover{
     cursor: pointer;
+}
+
+.madalHeader{
+    background-color: #f2cac2;
+    text-align: center;
 }
