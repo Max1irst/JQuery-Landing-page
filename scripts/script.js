@@ -25,18 +25,34 @@ $(document).ready(function () {
     });
 
     $('.products_block-lg').hover(function () {
-            $(this).addClass('blockHover')
+            $(this).addClass('blockHover');
         }, function () {
-            $(this).removeClass('blockHover')
+            $(this).removeClass('blockHover');
         }
     );
 
     $('.products_block-sm').hover(function () {
-        $(this).addClass('blockHover')
+        $(this).addClass('blockHover');
     }, function () {
-        $(this).removeClass('blockHover')
+        $(this).removeClass('blockHover');
     }
 );
 
+    $('.pieOrder').click(function(){
+        $('.site').addClass('siteHiden');
+        $('.form').fadeIn()
+    })
 
+    $('.closeModal').click(function(){
+        $('.site').removeClass('siteHiden');
+        $('.form').fadeOut()
+    })
+
+    $(document).mouseup(function(e){
+        let modal = $('.form');
+        if(e.target != modal[0] && modal.has(e.target).length === 0){
+            $('.site').removeClass('siteHiden');
+            $('.form').fadeOut()
+        }
+    })
 });

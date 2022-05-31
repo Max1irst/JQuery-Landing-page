@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,400;12..72,500&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100;12..72,400;12..72,500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -291,6 +293,27 @@
             </div>
             <button class="btnUp"><img class="btnUp" src="images/icons/up.png" alt="btnUp"></button>
         </footer>
+    </div>
+    <div class="form">
+        <form class="modalForm">
+            <p>Что хотите заказать?</p>
+            <select name="bakingType" id="types">
+                <option>Торт</option>
+                <option>Капкейки</option>
+                <option>Пончики</option>
+            </select>
+            <p>С какой начинкой?</p>
+            <select id="Amount">
+                <option>Индивидуальная</option>
+                <option>Из списка</option>
+            </select>
+            <p>Вес изделия?(кг)</p>
+            <input type="number">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Ваш номер телефона">
+            <input type="submit" class="formSubmit" value="Позвоните мне">
+        </form>
+        <div class="closeModal"><img src="/images/icons/close.png" alt=""></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
